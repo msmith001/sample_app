@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:pageName).capitalize %> | Myles Smith Sample Site</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <h1> <%= yield(:pageName).capitalize %> </h1>
+    <p1>
+    This is an empty <%= yield(:pageName) %> page for Myles Smith's sample site.
+    </p1>
+  </body>
+</html>
