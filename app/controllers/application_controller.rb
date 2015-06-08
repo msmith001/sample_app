@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
   def default
     render text: "Website is working"
   end
+
 end
